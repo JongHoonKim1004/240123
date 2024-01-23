@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* ///헤더 밑 광고 & 네비게이션///  */
+#upper-banner {width:100%; height:59px;}
+#location {width:100%; height:41px;}
+
+/* ///sub 상단/// */
+.upper-sub {width:1200px; height:auto; margin:0 auto; border:1px solid purple;}
+
+/* 상품설명 섹션 */
+.upper-main {width:100%; height:745px; background-color: aqua;}
+
+/* 광고표시 섹션 */
+.upper-ad {width:100%; height:100px; margin:30px 0; background-color: blue;}
+
+/* 추천도서 섹션 */
+.upper-recommend {width:100%; height:400px; background-color: skyblue;}
+
+/* ///중간 네비게이션/// */
+#detail-nav {position: relative; height:60px; margin-top:30px;}
+
+/* ///sub 하단/// */
+#lower-sub {width:100%; height:15000px;  padding: 30px 0;}
+.lower-sub {width:1200px; height:15000px;  margin:0 auto; border:1px solid purple;}
+
+/* 하단부 오른쪽 영역 */
+.lower-right {width:220px; height:1000px; float:right; background-color: aqua;}
+
+/* //하단부 왼쪽 영역// */
+.lower-left {width:940px; float:left;}
+.lower-left > div:not(.lower-item-info) {margin-top:30px;}
+
+/* 품목정보 영역 */
+
+.item-info-text {height:50px; line-height: 30px; padding-bottom:15px;}
+.item-info-text > h3 {font-size: 20px; font-weight: bold;}
+.info-table {width:940px; height:164px; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; font-size: 12px;}
+.info-table-tr { border-bottom: 1px solid #d8d8d8; }
+.info-table-tr:last-child {border:0;}
+.info-table-tr > th {border-right:1px solid #d8d8d8; padding:12px 0; background-color: #f8f8f8; font-weight: 700;}
+.info-table-tr > td { padding-left:5px; color:#666;}
+
+/* 관련분류 영역 */
+.lower-classification {border-bottom:1px solid #d8d8d8;}
+.classification-title {height:50px; line-height:30px; padding-top:15px;}
+.classification-title > h3 {font-size: 20px; font-weight: bold;}
+.classification-main > h4 {height:40px; line-height: 20px; font-size: 14px; color:#333;}
+.classification-ul {list-style: circle; margin-bottom:40px;}
+.classification-ul > li {font-size: 12px; margin-left:20px; padding-bottom:10px;}
+.classification-ul > li > a {color:#333; display: block; float:left;}
+.classification-ul > li > a:hover {text-decoration: underline;}
+.right-arrow {font-size: 10px; color:#666; display: block; margin:0 5px; float:left;}
+
+/* 이 상품의 이벤트 영역 */
+.lower-this-event {height:330px; padding-bottom:30px; border:1px solid #d8d8d8; position: relative; overflow: hidden;}
+.this-event-text {width:940px; height:50px; line-height: 30px; padding-top: 15px;}
+.this-event-text > h3 {font-size: 20px; font-weight: bold; display: inline-block; margin-right:10px;}
+.this-event-main {width:940px; height:260px;}
+.this-event-main-li {width:940px; height:130px; padding-bottom:10px;}
+.this-event-main-li:last-child {margin-bottom:0;}
+.this-event-main-content {width:458px; height:130px; float:left; margin-right:10px;}
+.main-content-img {width:140px; height:85px; float:left; margin-right:10px;}
+.main-content-img > a > img {width:100%; height:100%;}
+.main-content-marking {width:300px; float:right; margin-bottom:10px;}
+.content-mark {float:left; font-size:12px; line-height: 16px; color:#666; background-color: #f8f8f8; border: 1px solid #d8d8d8; margin-right:5px; padding:1px 3px;}
+
+.main-content-text {width:300px; float:right; text-align: left;}
+.main-content-text > p {font-size:12px; line-height: 16px;}
+.event-content-title {font-weight: 700; margin-bottom:5px;}
+.event-content-content {margin-bottom:5px;}
+.event-content-date {color:#666;}
+
+.this-event-button {width:940px; height:20px; position:absolute; bottom:0px; left:0px; right:0px; cursor: pointer; text-align: right; background-color: white;}
+.this-event-button > p {font-size: 12px; color:#6699cc; display: inline-block;}
+.UpDown-btn {font-size: 12px; color:#999; transform: rotate(90deg); display: inline-block; margin:0 5px;}
+
+/* 카드뉴스로 보는 책 영역 */
+.lower-card-news {width:940px; height:515px; position: relative;}
+.card-news-text {width:700px; height:50px; line-height: 30px; padding-top:15px; display: block; float: left;}
+.card-news-text > h3 {font-size:20px; font-weight: bold;}
+.card-news-num {width:40px; height:50px; font-size:12px; padding-top:15px; position: absolute; top:0px; right:0px;}
+.card-news-button {width:940px; height:50px; z-index: 2; position: absolute; top:228px; left:0px;}
+.card-news-prev {width:50px; height:50px; background-color: #666; opacity: 0.5; font-size: 30px; color:white; padding: 5px 0 0 10px; float: left; cursor: pointer;}
+.card-news-next {width:50px; height:50px; background-color: #666; opacity: 0.5; font-size: 30px; color:white; padding: 5px 0 0 15px; float:right; cursor: pointer;}
+
+.card-news-content {width:940px; height:463px; position:absolute; top:50px; left:0px;}
+.card-news-content > img {width:50%; height:100%; float:left;}
+
+/* 책소개 영역 */
+.lower-text-introduction {width:940px; border-bottom:1px solid #d8d8d8;}
+.intro-title {width:940px; height:50px; line-height: 30px; padding-top:15px;}
+.intro-title > h3 {font-size: 20px; font-weight: bold;}
+.intro-content {width:940px; line-height: 30px; font-size:16px;}
+.intro-content > p { color:#333;}
+.intro-content > b { color:gray; }
+.intro-content > ul {list-style: circle; margin-bottom:50px;}
+.intro-content > ul > li {font-size:12px; color:#6699cc; margin-left:20px;}
+.intro-content > ul > li > a {width:20px; height:16px; font-size: 12px; border:1px solid #d8d8d8; margin-left:5px; color:#333;}
+
+/* 목차 영역*/
+.lower-book-index {height:397px; overflow: hidden; border-bottom:1px solid #d8d8d8; position: relative;}
+.index-title { height:50px; line-height: 30px; padding-top:15px;}
+.index-title > h3 {font-size: 20px; font-weight: bold;}
+.index-content {margin-top:10px; line-height: 30px; color:#333;}
+.index-content > b {color:#666; font-weight: 600;}
+.index-button {width:940px; height:20px; position:absolute; bottom:0px; left:0px; right:0px; cursor: pointer; text-align: right;}
+.index-button > p {font-size: 12px; color:#6699cc; display: inline-block;}
+
+
+
+/* 채널예스 기사 영역*/
+.lower-channelYes {height:270px; padding-bottom:30px; border-bottom:1px solid #d8d8d8;}
+.channelYes-text {height:50px; line-height: 30px; padding-bottom: 15px;}
+.channelYes-text > h3 {font-size:20px; font-weight: bold; display: inline-block; margin-right:5px;}
+.channelYes-news {height:190px;}
+.channelYes-article {width:160px; height:180px; margin-right: 35px;}
+.channelYes-article > p > a {color:black; display: block; width:160px; height:113px; position: relative;}
+.channelYes-article > p > a > em {line-height: 16px; font-size: 12px; position:absolute; bottom:0px; left:0px; right:0px; text-align: center;}
+.channelYes-article > p > a > em > img {width:160px; height:113px;}
+.article-content {margin-top: 12px; width:160px; text-align: left;}
+.article-content > p {font-size: 12px;}
+.article-title {word-wrap: break-word; word-break: keep-all; line-height: 17px; overflow: hidden;  max-height: 34px;}
+.article-title > a {color:#333; font-size: 14px; font-weight: bold;}
+.article-date {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; font-size: 12px; margin-top: 6px; line-height: 16px;display: block; color:#999;}
+
+
+/* 상세 이미지 영역 */
+.lower-long-image {padding-bottom:30px; border-bottom:1px solid #d8d8d8;}
+.long-image-text {height:50px; line-height: 30px; padding-bottom:15px;}
+.long-image-h3 {font-size: 20px; font-weight: bold;}
+
+/* 저자 소개 영역 */
+.lower-author-group {width:940px;}
+.author-group-title {height:50px; line-height: 30px; padding-top: 15px;}
+.author-group-title > h3 {font-size: 20px; font-weight: bold; display: inline-block; margin-right:10px;}
+.author-group-main1 {width:940px; border:1px solid #d8d8d8; position: relative;}
+.author-group-main2 {width:940px; border:1px solid #d8d8d8; position: relative;}
+.author-title {width:940px; height:50px; border-bottom:1px solid #d8d8d8;}
+.author-name {width:50%; height:50px; padding:13px 0 0 20px; float: left; font-weight: 700;}
+.author-name > a {color:#333; font-weight: 700;}
+.author-name > a:hover {text-decoration: underline;}
+.author-name > span {font-weight: normal;}
+.author-btn {width:50%; height:50px; padding:10px 10px 10px 0; float:right; text-align: center;}
+.author-notice {width:auto; height: 30px; border:1px solid #d8d8d8; margin-right:5px; float:right; font-size: 14px; padding: 5px; cursor: pointer;}
+.author-file {width:auto; height: 30px; border:1px solid #d8d8d8; float:right; font-size: 14px; padding: 5px; cursor: pointer;}
+.author-content { width:940px; overflow: hidden;}
+.author-text {width:940px; padding:30px;}
+
+
+/* 만든 이 코멘트 */
+.lower-author-comment {border: 1px solid green;}
+.lower-recommend-comment {border: 1px solid #d8d8d8;}
+.lower-user-review {border:1px solid blue;}
+.lower-review-comment {border:1px solid skyblue;}
+.lower-buy-related {border:1px solid blueviolet;}
+.lower-delivery {border:1px solid purple;}
